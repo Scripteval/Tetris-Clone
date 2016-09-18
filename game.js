@@ -1,4 +1,4 @@
-"Use strict";
+"use strict";
 var game = game || {};
 game.tetris = {
 	canvas:  undefined,
@@ -78,7 +78,6 @@ game.tetris = {
 	},
 
 	draw: function() {
-		console.log(this.minos.J["0"][1][0]);
 		this.context.fillStyle = "black";
 		this.context.fillRect(0,0, 150, 150); //Temp
 	}
