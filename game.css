@@ -1,0 +1,8 @@
+body {
+	background-color: brown;
+}
+
+#Game {
+	outline: none;
+	border:5px solid black;
+}
